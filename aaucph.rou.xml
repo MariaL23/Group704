@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Nov 11 22:16:49 2024 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/veins/Downloads/multi-lane/aaucph.net.xml"/>
+        <route-files value="/home/veins/Downloads/multi-lane/aaucph.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/veins/Downloads/multi-lane/aaucph.rou.xml"/>
+        <alternatives-output value="/home/veins/Downloads/multi-lane/aaucph.rou.alt.xml"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <max-alternatives value="3"/>
+        <repair value="true"/>
+        <routing-algorithm value="dijkstra"/>
+    </processing>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" probability="0.10" vClass="bus" guiShape="bus" color="green"/>
+    <vType id="emergency" maxSpeed="27.78" probability="0.10" vClass="emergency" guiShape="emergency" color="red"/>
+    <vType id="car" probability="0.70" vClass="passenger" guiShape="passenger" color="yellow"/>
+
+    <!-- Regular vehicles -->
+    <trip id="0" type="car" depart="0.00" departLane="best" departSpeed="max" from="630489172" to="600446141#3"/>
+    <trip id="1" type="car" depart="2.00" departLane="best" departSpeed="max" from="3663846#2" to="672675019#2"/>
+    <trip id="2" type="car" depart="4.00" departLane="best" departSpeed="max" from="-505257874#2" to="705279867#4"/>
+    <trip id="3" type="car" depart="6.00" departLane="best" departSpeed="max" from="-24418179#2" to="3663849#5"/>
+    <trip id="4" type="car" depart="8.00" departLane="best" departSpeed="max" from="-3676664#1" to="3663841#1"/>
+    <trip id="5" type="car" depart="10.00" departLane="best" departSpeed="max" from="3542460#0" to="-600446141#1"/>
+    <trip id="6" type="car" depart="12.00" departLane="best" departSpeed="max" from="-363633974#1" to="422789536"/>
+    <trip id="7" type="car" depart="14.00" departLane="best" departSpeed="max" from="3676665#16" to="834616393#1"/>
+    <trip id="8" type="car" depart="16.00" departLane="best" departSpeed="max" from="630489172" to="600446141#3"/>
+    <trip id="9" type="car" depart="18.00" departLane="best" departSpeed="max" from="3663846#2" to="672675019#2"/>
+    <trip id="10" type="car" depart="20.00" departLane="best" departSpeed="max" from="-505257874#2" to="705279867#4"/>
+
+    <!-- Additional vehicles to ensure continuous traffic -->
+    <trip id="11" type="car" depart="25.00" departLane="best" departSpeed="max" from="-24418179#2" to="3663849#5"/>
+    <trip id="12" type="car" depart="30.00" departLane="best" departSpeed="max" from="-3676664#1" to="3663841#1"/>
+    <trip id="13" type="car" depart="35.00" departLane="best" departSpeed="max" from="3542460#0" to="-600446141#1"/>
+</routes>

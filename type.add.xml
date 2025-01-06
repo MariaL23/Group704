@@ -1,0 +1,9 @@
+<additional>
+    <!-- Define vehicle types -->
+    <vTypeDistribution id="mixed">
+        <vType id="car" vClass="passenger" guiShape="passenger" color="1,1,0" probability="0.7"/>
+        <vType id="emergency" vClass="emergency" guiShape="emergency" maxSpeed="27.78" color="1,0,0" probability="0.1"/>
+        <vType id="bus" vClass="bus" guiShape="bus" color="0,1,0" probability="0.1"/>
+        <vType id="truck" vClass="truck" guiShape="truck" color="0,0,1" probability="0.1"/>
+    </vTypeDistribution>
+</additional>
