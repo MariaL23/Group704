@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-29 00:01:52 by Eclipse SUMO duarouter Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="aaucph.net.xml"/>
+        <route-files value="aaucph.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="aaucph.rou.xml"/>
+        <alternatives-output value="aaucph.rou.alt.xml"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <max-alternatives value="3"/>
+        <repair value="true"/>
+        <weights.random-factor value="1.5"/>
+        <routing-algorithm value="dijkstra"/>
+    </processing>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger" vClass="passenger"/>
+    <trip id="0" type="passenger" depart="0.00" departLane="best" departSpeed="max" from="602918851#2" to="-1880590#8"/>
+    <trip id="1" type="passenger" depart="10.00" departLane="best" departSpeed="max" from="-907363810#0" to="-11948850#1"/>
+    <trip id="2" type="passenger" depart="20.00" departLane="best" departSpeed="max" from="-3663838#1" to="168251834#5"/>
+    <trip id="3" type="passenger" depart="30.00" departLane="best" departSpeed="max" from="-11948849#2" to="-28350280#1"/>
+    <trip id="4" type="passenger" depart="40.00" departLane="best" departSpeed="max" from="28350186#0" to="1880590#3"/>
+    <trip id="5" type="passenger" depart="50.00" departLane="best" departSpeed="max" from="-3663838#2" to="25684044#2"/>
+    <trip id="6" type="passenger" depart="60.00" departLane="best" departSpeed="max" from="416688408#1" to="-1010747031#4"/>
+    <trip id="7" type="passenger" depart="70.00" departLane="best" departSpeed="max" from="411101099#1" to="3663839#11"/>
+    <trip id="8" type="passenger" depart="80.00" departLane="best" departSpeed="max" from="-502436882" to="-25916558"/>
+    <trip id="9" type="passenger" depart="90.00" departLane="best" departSpeed="max" from="747135397#0" to="-416688435#0"/>
+    <trip id="10" type="passenger" depart="100.00" departLane="best" departSpeed="max" from="422789562" to="25915016#1"/>
+    <trip id="11" type="passenger" depart="110.00" departLane="best" departSpeed="max" from="416688408#0" to="3663844#0"/>
+    <trip id="12" type="passenger" depart="120.00" departLane="best" departSpeed="max" from="1880590#6" to="834616393#2"/>
+    <trip id="13" type="passenger" depart="130.00" departLane="best" departSpeed="max" from="-629818102#0" to="191619082#1"/>
+    <trip id="15" type="passenger" depart="150.00" departLane="best" departSpeed="max" from="3663840#10" to="-1299036737#0"/>
+    <trip id="16" type="passenger" depart="160.00" departLane="best" departSpeed="max" from="-3663839#2" to="-3676663#2"/>
+    <trip id="17" type="passenger" depart="170.00" departLane="best" departSpeed="max" from="-24418179#1" to="-3663849#4"/>
+    <trip id="18" type="passenger" depart="180.00" departLane="best" departSpeed="max" from="26397756#1" to="-600446141#0"/>
+    <trip id="19" type="passenger" depart="190.00" departLane="best" departSpeed="max" from="-602918861#1" to="-363633973#1"/>
+    <trip id="20" type="passenger" depart="200.00" departLane="best" departSpeed="max" from="28350122#0" to="25915016#5"/>
+    <trip id="21" type="passenger" depart="210.00" departLane="best" departSpeed="max" from="-26165357#1" to="-602918861#1"/>
+    <trip id="23" type="passenger" depart="230.00" departLane="best" departSpeed="max" from="24418179#2" to="363633974#1"/>
+    <trip id="24" type="passenger" depart="240.00" departLane="best" departSpeed="max" from="422789559#2" to="3676664#2"/>
+    <trip id="25" type="passenger" depart="250.00" departLane="best" departSpeed="max" from="-3663839#4" to="-11948850#3"/>
+    <trip id="26" type="passenger" depart="260.00" departLane="best" departSpeed="max" from="-3676665#2" to="-3663846#2"/>
+    <trip id="27" type="passenger" depart="270.00" departLane="best" departSpeed="max" from="-363633974#0" to="705279869#6"/>
+    <trip id="28" type="passenger" depart="280.00" departLane="best" departSpeed="max" from="559697158#1" to="-3676665#17"/>
+    <trip id="29" type="passenger" depart="290.00" departLane="best" departSpeed="max" from="28350191#0" to="-658432252#1"/>
+    <trip id="30" type="passenger" depart="300.00" departLane="best" departSpeed="max" from="24418179#6" to="-3663844#3"/>
+    <trip id="31" type="passenger" depart="310.00" departLane="best" departSpeed="max" from="98679383#0" to="168251835#2"/>
+    <trip id="32" type="passenger" depart="320.00" departLane="best" departSpeed="max" from="-24418179#7" to="26163678"/>
+    <trip id="33" type="passenger" depart="330.00" departLane="best" departSpeed="max" from="3676665#4" to="-840863329#0"/>
+    <trip id="34" type="passenger" depart="340.00" departLane="best" departSpeed="max" from="834616389#1" to="422789566#2"/>
+    <trip id="35" type="passenger" depart="350.00" departLane="best" departSpeed="max" from="-1010747033#1" to="3663841#3"/>
+    <trip id="36" type="passenger" depart="360.00" departLane="best" departSpeed="max" from="363633973#4" to="1880585#2"/>
+    <trip id="37" type="passenger" depart="370.00" departLane="best" departSpeed="max" from="-3663846#2" to="26588093#1"/>
+    <trip id="38" type="passenger" depart="380.00" departLane="best" departSpeed="max" from="111585355#2" to="742676803"/>
+    <trip id="39" type="passenger" depart="390.00" departLane="best" departSpeed="max" from="559697158#0" to="-3663844#3"/>
+    <trip id="40" type="passenger" depart="400.00" departLane="best" departSpeed="max" from="-3676664#1" to="26397756#1"/>
+    <trip id="41" type="passenger" depart="410.00" departLane="best" departSpeed="max" from="3676663#2" to="1880590#1"/>
+    <trip id="42" type="passenger" depart="420.00" departLane="best" departSpeed="max" from="-1010747031#0" to="-3676665#7"/>
+    <trip id="43" type="passenger" depart="430.00" departLane="best" departSpeed="max" from="-111585355#2" to="705279867#2"/>
+    <trip id="45" type="passenger" depart="450.00" departLane="best" departSpeed="max" from="-3676665#13" to="-168251835#2"/>
+    <trip id="46" type="passenger" depart="460.00" departLane="best" departSpeed="max" from="559697160" to="737390306"/>
+    <trip id="47" type="passenger" depart="470.00" departLane="best" departSpeed="max" from="-1880590#10" to="11948850#9"/>
+    <trip id="48" type="passenger" depart="480.00" departLane="best" departSpeed="max" from="3676663#4" to="-25915016#0"/>
+    <trip id="49" type="passenger" depart="490.00" departLane="best" departSpeed="max" from="11948850#8" to="1880590#8"/>
+    <trip id="50" type="passenger" depart="500.00" departLane="best" departSpeed="max" from="-3663846#1" to="559697158#1"/>
+    <trip id="51" type="passenger" depart="510.00" departLane="best" departSpeed="max" from="-907363810#1" to="-363633973#2"/>
+    <trip id="52" type="passenger" depart="520.00" departLane="best" departSpeed="max" from="-3542461#0" to="-3676665#15"/>
+    <trip id="53" type="passenger" depart="530.00" departLane="best" departSpeed="max" from="959156057" to="28350122#0"/>
+    <trip id="54" type="passenger" depart="540.00" departLane="best" departSpeed="max" from="1010747031#1" to="168256686#5"/>
+    <trip id="55" type="passenger" depart="550.00" departLane="best" departSpeed="max" from="-25680833#1" to="-3663838#2"/>
+    <trip id="56" type="passenger" depart="560.00" departLane="best" departSpeed="max" from="-3663839#5" to="-363633974#4"/>
+    <trip id="57" type="passenger" depart="570.00" departLane="best" departSpeed="max" from="-3663839#4" to="618468225"/>
+    <trip id="58" type="passenger" depart="580.00" departLane="best" departSpeed="max" from="-3663840#2" to="3542457#0"/>
+    <trip id="59" type="passenger" depart="590.00" departLane="best" departSpeed="max" from="-363633974#3" to="-25915016#2"/>
+    <trip id="60" type="passenger" depart="600.00" departLane="best" departSpeed="max" from="705279869#0" to="24418179#5"/>
+    <trip id="61" type="passenger" depart="610.00" departLane="best" departSpeed="max" from="11948850#6" to="3676665#13"/>
+    <trip id="62" type="passenger" depart="620.00" departLane="best" departSpeed="max" from="416688408#0" to="-28350191#0"/>
+    <trip id="63" type="passenger" depart="630.00" departLane="best" departSpeed="max" from="-237108789#2" to="-956073355#0"/>
+    <trip id="64" type="passenger" depart="640.00" departLane="best" departSpeed="max" from="-907363810#1" to="11948849#2"/>
+    <trip id="65" type="passenger" depart="650.00" departLane="best" departSpeed="max" from="3663844#2" to="3542461#0"/>
+    <trip id="66" type="passenger" depart="660.00" departLane="best" departSpeed="max" from="-28350191#0" to="1010747031#5"/>
+    <trip id="67" type="passenger" depart="670.00" departLane="best" departSpeed="max" from="-907363810#0" to="-3663849#5"/>
+    <trip id="68" type="passenger" depart="680.00" departLane="best" departSpeed="max" from="-3663841#4" to="700814514#1"/>
+    <trip id="69" type="passenger" depart="690.00" departLane="best" departSpeed="max" from="237108789#5" to="-168251834#2"/>
+    <trip id="70" type="passenger" depart="700.00" departLane="best" departSpeed="max" from="98679383#1" to="422789541#0"/>
+    <trip id="71" type="passenger" depart="710.00" departLane="best" departSpeed="max" from="8128725#1" to="700814514#4"/>
+    <trip id="72" type="passenger" depart="720.00" departLane="best" departSpeed="max" from="422789564" to="-26234964#1"/>
+    <trip id="73" type="passenger" depart="730.00" departLane="best" departSpeed="max" from="143837836#0" to="-363633973#4"/>
+    <trip id="74" type="passenger" depart="740.00" departLane="best" departSpeed="max" from="-629818102#0" to="893279609#2"/>
+    <trip id="75" type="passenger" depart="750.00" departLane="best" departSpeed="max" from="747135397#0" to="959156057"/>
+    <trip id="76" type="passenger" depart="760.00" departLane="best" departSpeed="max" from="24418179#2" to="3663841#0"/>
+    <trip id="77" type="passenger" depart="770.00" departLane="best" departSpeed="max" from="-25916544#6" to="-3676663#7"/>
+    <trip id="78" type="passenger" depart="780.00" departLane="best" departSpeed="max" from="8128725#1" to="25171840#3"/>
+    <trip id="79" type="passenger" depart="790.00" departLane="best" departSpeed="max" from="191619082#2" to="3663849#3"/>
+    <trip id="80" type="passenger" depart="800.00" departLane="best" departSpeed="max" from="-168251834#2" to="25680833#0"/>
+    <trip id="81" type="passenger" depart="810.00" departLane="best" departSpeed="max" from="168256686#2" to="422789561"/>
+    <trip id="82" type="passenger" depart="820.00" departLane="best" departSpeed="max" from="-25950752#1" to="747135397#4"/>
+    <trip id="83" type="passenger" depart="830.00" departLane="best" departSpeed="max" from="-171272976#2" to="-28350186#0"/>
+    <trip id="84" type="passenger" depart="840.00" departLane="best" departSpeed="max" from="-3663840#10" to="-25684418#1"/>
+    <trip id="85" type="passenger" depart="850.00" departLane="best" departSpeed="max" from="600446142#1" to="-3663840#9"/>
+    <trip id="86" type="passenger" depart="860.00" departLane="best" departSpeed="max" from="-893279609#1" to="25680833#0"/>
+    <trip id="88" type="passenger" depart="880.00" departLane="best" departSpeed="max" from="-3542461#2" to="3663840#9"/>
+    <trip id="89" type="passenger" depart="890.00" departLane="best" departSpeed="max" from="-3663840#4" to="-658432252#1"/>
+    <trip id="90" type="passenger" depart="900.00" departLane="best" departSpeed="max" from="3542460#0" to="-3676664#2"/>
+    <trip id="91" type="passenger" depart="910.00" departLane="best" departSpeed="max" from="-3676665#3" to="3663849#5"/>
+    <trip id="92" type="passenger" depart="920.00" departLane="best" departSpeed="max" from="-168256686#5" to="111585355#1"/>
+    <trip id="93" type="passenger" depart="930.00" departLane="best" departSpeed="max" from="98679383#0" to="979876182"/>
+    <trip id="94" type="passenger" depart="940.00" departLane="best" departSpeed="max" from="-168256686#5" to="-363633973#3"/>
+    <trip id="95" type="passenger" depart="950.00" departLane="best" departSpeed="max" from="-602918861#1" to="-25950752#0"/>
+    <trip id="96" type="passenger" depart="960.00" departLane="best" departSpeed="max" from="25916544#6" to="90714001#1"/>
+    <trip id="97" type="passenger" depart="970.00" departLane="best" departSpeed="max" from="28350186#4" to="-1010747033#0"/>
+    <trip id="98" type="passenger" depart="980.00" departLane="best" departSpeed="max" from="422789534" to="-3676664#1"/>
+    <trip id="99" type="passenger" depart="990.00" departLane="best" departSpeed="max" from="28350280#1" to="705279869#3"/>
+</routes>
