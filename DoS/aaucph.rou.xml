@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-29 00:01:52 by Eclipse SUMO duarouter Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="aaucph.net.xml"/>
+        <route-files value="aaucph.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="aaucph.rou.xml"/>
+        <alternatives-output value="aaucph.rou.alt.xml"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <max-alternatives value="3"/>
+        <repair value="true"/>
+        <weights.random-factor value="1.5"/>
+        <routing-algorithm value="dijkstra"/>
+    </processing>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger" vClass="passenger"/>
+    <trip id="0" type="passenger" depart="00.00" departLane="best" departSpeed="max" from="602918851#2" to="-1880590#8"/>
+    <trip id="1" type="passenger" depart="10.00" departLane="best" departSpeed="max" from="-907363810#0" to="-11948850#1"/>
+    <trip id="2" type="passenger" depart="20.00" departLane="best" departSpeed="max" from="-3663838#1" to="168251834#5"/>
+    <trip id="3" type="passenger" depart="30.00" departLane="best" departSpeed="max" from="-11948849#2" to="-28350280#1"/>
+    <trip id="4" type="passenger" depart="40.00" departLane="best" departSpeed="max" from="28350186#0" to="1880590#3"/>
+    <trip id="5" type="passenger" depart="50.00" departLane="best" departSpeed="max" from="-3663838#2" to="25684044#2"/>
+    <trip id="6" type="passenger" depart="60.00" departLane="best" departSpeed="max" from="416688408#1" to="-1010747031#4"/>
+    <trip id="7" type="passenger" depart="70.00" departLane="best" departSpeed="max" from="411101099#1" to="3663839#11"/>
+    <trip id="8" type="passenger" depart="80.00" departLane="best" departSpeed="max" from="-502436882" to="-25916558"/>
+    <trip id="9" type="passenger" depart="90.00" departLane="best" departSpeed="max" from="747135397#0" to="-416688435#0"/>
+    <trip id="10" type="passenger" depart="100.00" departLane="best" departSpeed="max" from="422789562" to="25915016#1"/>
+    <trip id="11" type="passenger" depart="110.00" departLane="best" departSpeed="max" from="416688408#0" to="3663844#0"/>
+    <trip id="12" type="passenger" depart="120.00" departLane="best" departSpeed="max" from="1880590#6" to="834616393#2"/>
+
+
+</routes>
