@@ -1,0 +1,35 @@
+<!-- generated on 2021-05-17 00:30:10.737654 by randomTrips.py v1_6_0+0003-190709904e
+  options: -n C:/Users/iracca/src/veins-veins-5.1/examples/veins/emergencyLane.net.xml -e 10 -o C:/Users/iracca/src/veins-veins-5.1/examples/veins/emergencyLane.trips.xml <doubleminus>validate
+-->
+<routes>
+
+    <vType id="emergency" vClass="emergency" guiShape='emergency'/>
+    <vType id="slow_passenger" vClass="passenger" maxSpeed='3'/>
+    <vType id="passenger" vClass="passenger" maxSpeed='4'/>
+    <vType id="carelessDriver" vClass="passenger" maxSpeed='5'/>
+    <vType id="super_carelessDriver" vClass="passenger" maxSpeed='7'/>
+    
+    <route edges="gneE9" color="yellow" id="route_0"/>
+
+    <vehicle id="vehicle_1" type="passenger" depart="0" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_2" type="slow_passenger" depart="15" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_3" type="carelessDriver" depart="30" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_4" type="passenger" depart="45" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_5" type="super_carelessDriver" depart="70" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_6" type="slow_passenger" depart="80" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_7" type="passenger" depart="100" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_8" type="carelessDriver" depart="115" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_9" type="passenger" depart="130" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_10" type="super_carelessDriver" depart="150" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_11" type="passenger" depart="160" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_12" type="slow_passenger" depart="175" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_13" type="super_carelessDriver" depart="190" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_14" type="passenger" depart="220" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_15" type="carelessDriver" depart="240" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_16" type="passenger" depart="255" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_17" type="slow_passenger" depart="270" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_18" type="carelessDriver" depart="290" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_19" type="passenger" depart="310" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_20" type="super_carelessDriver" depart="330" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_21" type="emergency" depart="280" route="route_0" departLane="0" arrivalLane="1"/>
+</routes>
